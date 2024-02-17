@@ -25,21 +25,15 @@ TODO (250 words minimum): Discuss the overview of the project using and building
 
 TODO: Conduct literature review by describing relevant work related to the project and hence providing an overview of the state of the art in the area of the project. This section serves to contextualize the study within the existing body of literature, presenting a thorough review of relevant prior research and scholarly contributions. In clear and meaningful language, this section aims to demonstrate the problems, gaps, controversies, or unanswered questions that are associated with the current understanding of the topic. In addition, this section serves to highlight the current study's unique contribution to the field. By summarizing and critiquing existing works, this section provides a foundation for readers to appreciate the novelty and significance of the study in relation to the broader academic discourse. The "Literature Review" section further contributes to the `why is the project important?` question. The number of scholarly work included in the literature review may vary depending on the project.
 
-Literature Review Notes
-
-References used:
-file:///C:/Users/akbla/Downloads/Big-Metadata-Smart-Metadata-and-Metadata-Capital-Toward-Greater-Synergy-Between-Data-Science-and-Metadata.pdf
-https://www.openarchives.org/OAI/openarchivesprotocol.html
-https://arxiv.org/pdf/1905.00075.pdf
-
-
-
-
-
-
 ## Methods
 
 TODO: Discuss the methods of the project to be able to answer the `how` question (`how was this project completed?`). The methods section in an academic research outlines the specific procedures, techniques, and methodologies employed to conduct the study, offering a transparent and replicable framework for the research. It details the resources behind the work, in terms of, for example, the design of the algorithm and the experiment(s), data collection methods, applied software libraries, required tools, the types of statistical analyses and models which are applied to ensure the rigor and validity of the study. This section provides clarity for other researchers to understand and potentially replicate the study, contributing to the overall reliability and credibility of the research findings.
+
+This case study will be focused around the utilization of data derived from arXiv. This information repository participates in the Open Archives Initiative (OAI), updating its data-provider nightly with metadata from new submissions. In order to perform data scraping on metadata from arXiv's OAI-PMH interface, one must abide by the rules stated in the Terms of Use for arXiv APIs (via https://info.arxiv.org/help/api/tou.html) to prevent restriction of access for their organization. The main limitation to the process of data scraping using arXiv is the rate limit, applying to all of one's devices as a collective. The limitation is stated on the information website as follows:
+
+"When using the legacy APIs (including OAI-PMH, RSS, and the arXiv API), make no more than one request every three seconds, and limit requests to a single connection at a time."
+
+The website also offers rules of guidance to abide by: processes you "can (and should!)" and "must not" follow while data scraping. Processes encouraged by arXiv that will be actively performed in this study include retrieving, storing, and using both descriptive metadata and content from arXiv e-prints. Tools and services will also be provided to guide readers to the e-prints containing data used and analyzed within this research, including visualizations and bibliography citations, per recommendation of arXiv. These actions will partake following the "must not do" list as well, meaning there will be no arXiv e-prints stored on the server, no faulty claims of arXiv's endorsement, and no fraudulant credentials to access the APIs. 
 
 ## Using the Artifact
 
@@ -58,3 +52,11 @@ The department's project descriptions can be found at [https://github.com/ReadyR
 ## Schedule
 
 The schedule for this work can be found at [https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs?tab=readme-ov-file#schedule](https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs?tab=readme-ov-file#schedule)
+
+References:
+https://info.arxiv.org/help/api/tou.html 
+
+References gathered:
+file:///C:/Users/akbla/Downloads/Big-Metadata-Smart-Metadata-and-Metadata-Capital-Toward-Greater-Synergy-Between-Data-Science-and-Metadata.pdf
+https://www.openarchives.org/OAI/openarchivesprotocol.html
+https://arxiv.org/pdf/1905.00075.pdf
