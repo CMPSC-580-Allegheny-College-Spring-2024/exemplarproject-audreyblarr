@@ -33,7 +33,7 @@ This case study will be focused around the utilization of data derived from arXi
 
 "When using the legacy APIs (including OAI-PMH, RSS, and the arXiv API), make no more than one request every three seconds, and limit requests to a single connection at a time."
 
-The website also offers rules of guidance to abide by: processes you "can (and should!)" and "must not" follow while data scraping. Processes encouraged by arXiv that will be actively performed in this study include retrieving, storing, and using both descriptive metadata and content from arXiv e-prints. Tools and services will also be provided to guide readers to the e-prints containing data used and analyzed within this research, including visualizations and bibliography citations, per recommendation of arXiv. These actions will partake following the "must not do" list as well, meaning there will be no arXiv e-prints stored on the server, no faulty claims of arXiv's endorsement, and no fraudulant credentials to access the APIs. 
+The website also offers rules of guidance to abide by: processes you "can (and should!)" and "must not" follow while data scraping. Processes encouraged by arXiv that will be actively performed in this study include retrieving, storing, and using both descriptive metadata and content from arXiv e-prints. Tools and services will also be provided to guide readers to the e-prints containing data used and analyzed within this research, including visualizations and bibliography citations, per recommendation of arXiv. These actions will partake following the "must not do" list as well, meaning there will be no arXiv e-prints stored on the server, inaccurate claims of arXiv's endorsement, or fraudulent credentials to access the APIs. 
 
 ## Using the Artifact
 
