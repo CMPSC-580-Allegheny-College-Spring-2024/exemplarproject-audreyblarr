@@ -3,23 +3,21 @@
 
 ## Semester: Spring 2024
 
-This repository contains student project materials, including project report, data, code, and references to literature for this departmentally-sponsored project. __As you complete each of the below sections in this document, please be sure to remove the preamble text so that it does not appear in your work.__ Please work with your first reader to answer any questions or concerns that you may have.
-
 ## GitHub Handle: audreyblarr
 
 ## Name: Audrey Blarr
 
 ## Major: INFM
 
-## Project Name: Enter The Name Of Your Project
-
-Here, think of an interesting name of the work that bring a freshness and excitement to the area of this project. Consider using a name that carries some information about what the project and provides some hint at what the project does without being too wordy.
+## Capital in Terms of Metadata: A Framework Derived and Supported with Data Scraping 
 
 ---
 
 ## Overview
 
 TODO (250 words minimum): Discuss the overview of the project using and building on the project description provided by the department. In this section, a concise summary is discussed of the study's key elements, offering the reader a quick understanding of the research's scope and goals. The section continues to outline the main topics, research questions, hypotheses, and /or theories in a clear and meaningful language to provide a type of roadmap for the reader to navigate the forthcoming details of the project. This section also needs to motivate the project by providing context for the study, outlining the current state of knowledge in the field, and highlighting any gaps or limitations in existing research. The section serves as a foundational guide that enables the reader to grasp the context of the study, in addition to its structure, before moving into a more technically-based discussion in the following sections of the article. In short, the "Overview" section needs to answer the `what` and `why` questions, that is `what is the project?` and `why is the project important?`
+
+Metadata, described as "data about data", is utilized in the world of data and information by archives, libraries, and even large language models to collect and organize large amounts of data for purposes of comparison and analysis. However, it's typically assumed by data users that the development and provision of metadata is of high value, with little-to-no interrogation of exactly how the data is supplied or how it's attached to the records derived by the user. The idea of "metadata capital" has been implemented by data researchers Greenberg, Swauger, and Feinstein as a method of inspecting the value and consistency associated with metadata use based on certain "capital" concepts. The Dryad research repository is the focus of their research, where they ensure metadata quality and increase the discoverability of said data, verifying that it's "accessible, organized, intelligible, and complete to ensure ease of re-use" (via https://datadryad.org/stash/mission#our-curation-and-publication-process). Despite Dryad's efforts to advance the phrase Metadata Capital, it remains unclear the basis in which metadata analysis can be developed to add value, or capital, to its framework. As applied to metadata, the idea of "capital" is somewhat underdeveloped; "Capital" is an interdisciplinary term typically used to describe a set of information's apparent "value proposition", yet there isn't enough literature to support the claims of this proposition. Because knowledge organization is extremely economically beneficial, this study proposes three main problem statements to fill the gaps in existing research on the topic of "metadata capital": curating a consistent and cross-disciplinary definition of the word "capital" as it's applied to metadata, determining frameworks/practices that demonstrate this definition in a desirable fashion, and providing characteristics of a high "metadata capital" repository as well as how users/organizations can benefit from these repositories. To assist in answering these questions efficiently, an experiment will be conducted within this study involving data scraping of the arXiv information repository. To the returned metadata from the scraping, a developed framework of "capital" notions will be applied to specific selection criteria to investigate the extent to which the criteria is consistent to the metadata.
 
 ## Literature Review
 
@@ -43,6 +41,10 @@ TODO: The result of your work will be the delivery of some type of artifact whic
 
 TODO: Discuss the outcomes of your project in this section. Depending on the project type, the presented results and outcomes will vary. In some projects, you will be asked to present a theoretical analysis, and in others your experimental study and its results. In this section, you are also to demonstrate an enhanced version of your artifact by showing its capabilities and applications, in light of the evaluation metrics for assessing the artifact
 
+## References
+
+TODO: References utilized in this study will be provided in this section.
+
 ---
 
 ## Exemplar Projects Discussions
@@ -57,6 +59,5 @@ References:
 https://info.arxiv.org/help/api/tou.html 
 
 References gathered:
-file:///C:/Users/akbla/Downloads/Big-Metadata-Smart-Metadata-and-Metadata-Capital-Toward-Greater-Synergy-Between-Data-Science-and-Metadata.pdf
 https://www.openarchives.org/OAI/openarchivesprotocol.html
 https://arxiv.org/pdf/1905.00075.pdf
