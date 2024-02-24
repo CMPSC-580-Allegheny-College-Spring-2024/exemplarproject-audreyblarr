@@ -25,7 +25,6 @@ Greenberg and her research colleagues Feinstein and Swauger were among the first
 
 Greenberg went on to publish more research articles utilizing the concept of metadata capital, pointing out in a separate resource that although metadata reuse adds value to the initial metadata cost, demonstrating a greater return on investment, cost and value aren’t always in alignment with each other (citation needed). The cost of a product may not be entirely reflective of its worth, which can be combated by extending the term “capital” in this sense to include intellectual and social capital as well as financial, as mentioned previously. Originally published in the Bulletin of the Association for Information Science and Technology, Greenberg defines “metadata capital” keeping the flexibility of the term “capital” in mind. The four different definitions she provides are as follows:
 
-
 " 1. An asset that contains contextual knowledge about content. <br>
 a. Content is the data or information contained in any information object (any “entity, form, or mode”). <br>
 b. Context is who, what, where, when, how, why, etc., which can be captured via metadata attributes (Kunze, 2001). <br>
@@ -33,9 +32,14 @@ b. Context is who, what, where, when, how, why, etc., which can be captured via 
 3. A good (a service facilitator) supporting a range of functions such as discovery, provenance tracking, rights management, authentication, preservation and other functions associated with lifecycle management and access. <br>
 4. A public good if the product (metadata) is open, following which the services can be open. ”
 
-
 Keeping these definitions in mind, Greenberg recognizes the biggest challenge with metadata valuation as the task of substantiating value. Although costs can be identified or estimated while pursuing metadata capital as a financial notion, it’s not an easy feat to determine where to begin measuring cost. Cost may start with the design of the metadata system, the builder of the system’s salary, the team implementing the workflow design, or the cost of the code library allowing this system to be built (citation needed). Evaluating the value of metadata in social and intellectual terms adds even more complexity to the matter, as it’s difficult to determine long-term consequences of metadata that may lead to discoveries several years from now.
 
+As Greenberg’s study of metadata capital involved analysis of the Dryad data repository, this study will utilize the arXiv repository and its API technology. Hosted on arXiv.org, hundreds of thousands of e-prints can be accessed programmatically through arXiv’s API (citation needed). Beginners can access these articles through their web browser by visiting arXiv.org and browsing article listings through the links provided, or searching for specific articles by keyword(s) through a search box in the upper right hand corner of the webpage. The API is used in the exact same way as the human web interface, incorporating shortcuts to make searching by query simpler for a user. Instead of opening the web and manually searching for a [keyword], the same results can be viewed by entering in a slightly different url using this format:
+
+http://export.arxiv.org/api/{method_name}?{parameters} (base url) <br>
+http://export.arxiv.org/api/{query}?{search_query=all:keyword} (specific to search queries, where {keyword} is replaced with the keyword being searched for)
+
+The results of the search query will look different using the API than they would on the web interface because the API returns its results in a format called Atom 1.0 rather than HTML. Furthermore, the parameters can be altered to better suit the purpose of the data search. As ‘method_name=query’, the query interface can be changed from ‘search_query’ to ‘id_list’, ‘start’, or ‘max_results’ to produce results better pertaining to the purpose of the API utilization. While ‘id_list’ produces a comma-delimited list of arXiv id’s, parameters ‘start’ and ‘max_value’ can be incorporated to download chunks of the result set at a time rather than downloading all the information at once. To further refine queries, parameter ‘sortBy’ can sort the result list by many different notions, including ‘relevance’, ‘lastUpdatedDate’, or ‘submittedDate’ to produce results pertaining more to present-time research. The ‘sortOrder’ can also be modified to sort the order of the results as either ‘ascending’ or ‘descending’. 
 
 
 ## Methods
