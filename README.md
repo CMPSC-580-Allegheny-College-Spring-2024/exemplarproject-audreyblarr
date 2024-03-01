@@ -57,13 +57,13 @@ The first query to be explored will search arXiv’s API for the keyphrase ‘Ar
 
 https://export.arxiv.org/api/query?search_query=all:Artificial&Intelligence&start=0&max_results=6 
 
-Excerpt from the query’s results:
+Here is an excerpt of the output after running this query:
 
-[insert image here]
+![output](./data/query1output.png)
 
 For organizational purposes, the information derived from running the queries will be sorted into a spreadsheet. Each query’s spreadsheet will contain headings ‘ID’, ‘Updated’, ‘Published’, ‘Short Title’, ‘Summary Present?’, and ‘# of Authors’ as means of storing information from each resulting article to be analyzed in conjunction with one another. The first spreadsheet can be seen below:
 
-[insert spreadsheet 1 here]
+![sheet](./data/query1sheet.pdf)
 
 (quick analysis of spreadsheet 1)
 
@@ -73,9 +73,9 @@ https://export.arxiv.org/api/query?search_query=all:Artificial&Intelligence&star
 
 Take a look as the second query is ran and sorted into a spreadsheet:
 
-[excerpt from the query]
+![output](./data/query2output.png)
 
-[spreadsheet 2]
+![sheet](./data/query2sheet.pdf)
 
 (Quick analysis of spreadsheet 2)
 
@@ -85,9 +85,9 @@ https://export.arxiv.org/api/query?search_query=ti:Artificial&Intelligence&start
 
  Once again, an excerpt of the query’s output as well as a sorted spreadsheet will be produced:
 
-[excerpt from output]
+![output](./data/query3output.png)
 
-[spreadsheet 3]
+![sheet](./data/query3sheet.pdf)
 
 (short analysis of spreadsheet 3)
 
