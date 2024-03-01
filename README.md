@@ -89,7 +89,7 @@ https://export.arxiv.org/api/query?search_query=ti:Artificial&Intelligence&start
 
 ![sheet](./data/query3sheet.csv)
 
-With this final query, the same notions of reusability and implementation to improve the information are displayed with the outputted metadata, as three out of the six are on their second versions of publication. Three out of six of the articles also have more than one contributor, showing increased collaboration on the sources produced. The problem here lies in the titles of the articles produced. While prompting the query be searched in the 'title' field, each title of the rendered articles seems to contain the first half of the keyphrase, "Artificial", but only one includes the word "Intelligence" following it. This proves to be inaccurate towards the overall goal of searching for articles with "Artificial Intelligence" in the title.
+With this final query, the same notions of reusability and implementation to improve the information are displayed with the outputted metadata, as three out of the six are on their second versions of publication. Three out of six of the articles also have more than one contributor, showing increased collaboration on the sources produced. The problem here lies in the titles of the articles produced. While prompting the query to be searched in the 'title' field, each title of the rendered articles seems to contain the first half of the keyphrase, "Artificial", but only one includes the word "Intelligence" following it. This proves to be inaccurate towards the overall goal of searching for articles with "Artificial Intelligence" in the title.
 
 ## Results and Outcomes
 
