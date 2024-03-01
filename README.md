@@ -63,7 +63,7 @@ Here is an excerpt of the output after running this query:
 
 For organizational purposes, the information derived from running the queries will be sorted into a spreadsheet. Each query’s spreadsheet will contain headings ‘ID’, ‘Updated’, ‘Published’, ‘Short Title’, ‘Summary Present?’, and ‘# of Authors’ as means of storing information from each resulting article to be analyzed in conjunction with one another. The first spreadsheet can be seen below:
 
-![sheet](./data/query1sheet.pdf)
+![sheet](./data/query1sheet.csv)
 
 (quick analysis of spreadsheet 1)
 
