@@ -66,7 +66,7 @@ Figure 1 displays an excerpt of the output after running this query, screenshott
 For organizational purposes, the information derived from running the queries will be sorted into a spreadsheet, viewable in Figure 2. Each query’s spreadsheet will contain headings ‘ID’, ‘Updated’, ‘Published’, ‘Short Title’, ‘Summary Present?’, and ‘# of Authors’ as means of storing information from each resulting article to be analyzed in conjunction with one another. These spreadsheets are then downloaded to the 'data' repository as csv files for proper viewing. The first spreadsheet can be seen below:
 
 **Figure 2**
-![sheet](./data/query1sheet.csv)
+![sheet](./data/query1sheet.pdf)
 *Data from the output produced after running the query 'https://export.arxiv.org/api/query?search_query=all:Artificial&Intelligence&start=0&max_results=6', sorted into a spreadsheet.*
 
 The most surprising element of this output is the fact that none of the articles produced had been updated since their publish, each reigning 'published' and 'updated' values identical to each other, which displays lack of collaboration, review since publish, and further implementation. Each title of the outputted articles contains the keyphrase 'Artificial Intelligence', so it's assumed that the query was accurate in searching for metadata relevant to these words. Each source only has three or less authors/contributors.
